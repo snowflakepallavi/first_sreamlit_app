@@ -8,4 +8,4 @@ streamlit.title('My Parents new healthy diner')
                 Plain Dosa
                 Masala Dosa
                 Uddina Vada
-                ')
+                
