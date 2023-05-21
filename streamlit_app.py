@@ -30,7 +30,7 @@ streamlit.text('Available Fruit List')
 # Display the table on the page.
 streamlit.dataframe(my_fruit_list)
 
-streamlit.header("Fruityvice Fruit Advice!")
+streamlit.header('Fruityvice Fruit Advice!')
 try:
 fruit_choice = streamlit.text_input('What fruit would you like information about?')
 if not fruit_choice:
@@ -43,7 +43,7 @@ if not fruit_choice:
   expect URLError as e:
     streamlit.error()
   
-streamlit.write('The user entered ', fruit_choice)
+#streamlit.write('The user entered ', fruit_choice)
 
 streamlit.stop()
 #import snowflake.connector
